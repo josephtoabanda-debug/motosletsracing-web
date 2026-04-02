@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* HEADER */
+header {
+    background-color: #111;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+/* TARJETAS */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    margin: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;          /* ocupa todo el ancho de la tarjeta */
+    height: 180px;        /* altura fija (puedes cambiarla) */
+    object-fit: cover;    /* recorta la imagen sin deformarla */
+    border-radius: 10px 10px 0 0;
+}
+
+.card h2 {
+    margin: 10px 0;
+}
+
+.card p {
+    padding: 0 10px 15px;
+}
+
+/* CONTENIDO */
+.contenido {
+    padding: 20px;
+    text-align: center;
+}
+
+/* FORMULARIO */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+/* BOTONES DE CONTACTO */
+.btn-contacto {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-contacto:hover {
+    background-color: #0056b3;
+}
+
+/* CONTENEDOR HORIZONTAL */
+.contacto-horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+/* CADA ITEM */
+.item-contacto {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* LOGOS */
+.item-contacto img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+/* BOTÓN */
+.item-contacto a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: orange;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.item-contacto a:hover {
+    background-color: darkorange;
+}
